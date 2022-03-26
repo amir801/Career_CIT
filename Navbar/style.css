@@ -224,44 +224,17 @@ color: white;
     cursor: pointer;
 }
 .aboutfooter i a:hover{
-    color: #fff;
+    color: white;
 }
 .text{
     background-color:rgb(0, 100, 0);
     text-align: center;
     font-size: 25px;
     padding: 5px;
-    color: white;
+    /* color: black; */
+}
+.text p:hover{
+    color: #000;
 }
 
 
-/*  
-
-slider is the name class="slider";
-
-.slider{
-    background-image: ;
-    background-size: cover;
-    background-position: center;
-    animation: slider 10s infinite;
-}
-@keyframes slider{
-
-    0%{
-        background-color: #000;
-        background-image: ;
-    }
-    25%{
-        background-color: #000;
-        background-image: ;
-    }
-    50%{
-        background-color: #000;
-        background-image: ;
-    }
-   100%{
-        background-color: #000;
-        background-image: ;
-    }
-}
-*/
