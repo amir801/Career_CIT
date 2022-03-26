@@ -5,65 +5,58 @@ body{
 }
 
 
-
 .aboutsection{
-
-    background-color: rgb(168, 160, 160);
-
- } 
-
-
-.section1{
     background-image: url(t2.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     animation: section1 10s infinite;
-
+    
 }
 @keyframes section1{
 
     0%{
         
-        background-image:url(2.jpg);
+        background-image:url(t2.jpg);
      } 
      25%{
         background-image: url(2.jpg);
     }
     50%{
         background-image: url(3.jpg);
+
+    }
+    100%{
+        background-image: url(4.jpg);
     }
 }
 
-
-
-
-
-
-.aboutheader{
-    width: 1300px;
-    margin: auto;
+ .aboutheader{
+     
+      background-color:rgb(0, 100, 0) ;
 }
+
 .aboutlogo h2{
     float: left;
-    font-size: 35px;
+ font-size: 35px;
     color: white;
-    height: auto;
-     margin-top: 20px; 
+      margin-top: 20px; 
+      margin-left: 20px; 
     font-family: MV boli;
 }
 .aboutlistitems{
     float: right;
-    height: auto;
-    margin-top: 20px;
-    padding-top: 15px;
-    text-align: center;
-    margin-right: 25px;
+    margin-top: 10px; 
+     padding-top: 10px;
+    /* text-align: center; */
+     margin-right: 25px;
    
 }
+
 .aboutlistitems li{
     display: inline-block;
     font-size: 20px;
-    padding: 5px;
+    /* padding: 5px;  */
        
 }
 .aboutlistitems li a{
@@ -78,6 +71,15 @@ body{
     color: aliceblue;
     cursor: pointer;
 }
+.section1{
+padding: 0;
+margin: 0;
+ transform: rotateY(-110px);
+height: 90vh;
+    
+
+}
+
 .section1 div{
  width: 45%;
  display: inline-block;
@@ -133,17 +135,14 @@ color: white;
     overflow: hidden;
     padding: 20px;
     margin-top: 100px;
-    /* margin-top: -410px; */
+    transform: translateX(40px);
+    
 
 }
 .section2 h1{
     color: #000;
      text-align: center; 
 }
-/* .section2 hr{
-    width: 100px;
-    transform:translateX(-240px);
-} */
 
 .section2 fieldset{
     width: 300px;
@@ -210,9 +209,9 @@ color: white;
 }
 
 .aboutfooter{
-    /* padding: 50px 0; */
+    
     height: 20vh;
-    background-color:rgba(0, 91, 143) ;
+    background-color:rgb(0, 100, 0);
 
 }
 
@@ -228,7 +227,7 @@ color: white;
     color: #fff;
 }
 .text{
-    background-color:rgba(0, 91, 143) ;
+    background-color:rgb(0, 100, 0);
     text-align: center;
     font-size: 25px;
     padding: 5px;
