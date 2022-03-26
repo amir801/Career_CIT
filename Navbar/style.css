@@ -8,12 +8,36 @@ body{
 
 .aboutsection{
 
+    background-color: rgb(168, 160, 160);
+
+ } 
+
+
+.section1{
     background-image: url(t2.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    animation: section1 10s infinite;
 
 }
+@keyframes section1{
+
+    0%{
+        
+        background-image:url(2.jpg);
+     } 
+     25%{
+        background-image: url(2.jpg);
+    }
+    50%{
+        background-image: url(3.jpg);
+    }
+}
+
+
+
+
+
 
 .aboutheader{
     width: 1300px;
@@ -211,3 +235,34 @@ color: white;
     color: white;
 }
 
+
+/*  
+
+slider is the name class="slider";
+
+.slider{
+    background-image: ;
+    background-size: cover;
+    background-position: center;
+    animation: slider 10s infinite;
+}
+@keyframes slider{
+
+    0%{
+        background-color: #000;
+        background-image: ;
+    }
+    25%{
+        background-color: #000;
+        background-image: ;
+    }
+    50%{
+        background-color: #000;
+        background-image: ;
+    }
+   100%{
+        background-color: #000;
+        background-image: ;
+    }
+}
+*/
