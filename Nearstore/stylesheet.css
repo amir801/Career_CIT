@@ -58,13 +58,19 @@ transform:translateY(10px);
     transform: translateY(-20px);
 }
 
+.search i{
+    /* padding: 5px; */
+    transform: translateX(290px);
+    
+}
 .bar i{
-padding: 5px;
-transform: translateX(290px);
-
+margin-top: 10px;
 }
 .bar p{
 
+    margin-top: 10px;
+}
+.bar span{
     margin-top: 10px;
 }
 
