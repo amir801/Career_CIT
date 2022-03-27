@@ -1,0 +1,131 @@
+
+
+.parent1{
+    display: flex;
+    border-bottom: 1px solid gray;
+
+}
+.text{
+    width: 20%;
+    font-family: cursive;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.list{
+    width: 80%;
+    margin-bottom: -10px;
+    
+}
+.aboutlist{
+    float: right;
+
+}
+.aboutlist li{
+    display: inline-block;
+    padding: 10PX;
+}
+.aboutlist i{
+transform:translateY(10px);
+}
+.parent2{
+    padding: 10px;
+    display: flex;
+}
+.text1{
+    width: 20%;
+    margin-top: 20px;
+}
+.text1 p{
+    color: red;
+    font-weight: bold;
+}
+
+.bar{
+    display: flex;
+    width: 40%;
+    border:1px solid red;
+    padding: 3px;
+    height: 5vh;
+    margin-top: 20px;
+    
+    
+}
+.sub{
+    font-family: cursive;
+    font-size: 12px;
+    margin-left: 40px;
+    transform: translateY(-20px);
+}
+
+.bar i{
+padding: 5px;
+transform: translateX(300px);
+
+}
+.bar p{
+
+    margin-top: 10px;
+}
+
+.icon1 div{
+    display: flex;
+}
+.iconcall i{
+   transform: translateY(20px);
+}
+.number{
+    margin-left: 30px;
+    transform: translateY(-10px);
+}
+
+
+.text3{
+    width: 35%;
+    display: flex;
+    float: right;
+ margin-left: 60px;
+ padding-left: 10px;
+ margin-top: 20px;
+ /* margin-bottom: 9px; */
+
+}
+
+.text3 i{
+    display:inline-block;
+}
+.icon1{
+    margin-left: 10px;
+
+}
+
+
+.icon2{
+    margin-left: 40px;
+
+}
+
+ .icon3{
+    margin-left: 40px;
+ }
+ 
+.icon4{ 
+    margin-left: 40px;
+}
+
+
+
+
+
+
+/* .text3 i{
+    margin-top: -8px;
+} */
+/* .icon2{
+    margin: 5px;
+} */
+/* .icon2 i{
+    padding: 5px;
+    transform: translateX(40px);
+
+} */
